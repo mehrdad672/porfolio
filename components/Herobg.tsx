@@ -17,13 +17,13 @@ const Herobg = (props: Props) => {
       transition={{
         duration:2.5
       }}
-      className="relative flex justify-center items-center"
+      className="relative flex justify-center items-center z-0"
     >
-      <div className="absolute  border border-[#333333] h-[100px] w-[100px] rounded-full mt-52 animate-ping" />
-      <div className="absolute border border-[#333333] h-[200px] w-[200px] rounded-full mt-52 " />
-      <div className="absolute border border-[#333333] h-[300px] w-[300px] rounded-full mt-52 " />
-      <div className="absolute border border-[#F7AB0A] opacity-20 h-[450px] w-[450px] rounded-full mt-52 animate-pulse" />
-      <div className="absolute border border-[#333333] h-[600px] w-[600px] rounded-full mt-52 " />
+      <div className="absolute  border border-[#333333] h-[150px] w-[150px] rounded-full mt-52 animate-ping" />
+      <div className="absolute border border-[#333333] h-[250px] w-[250px] rounded-full mt-52 " />
+      <div className="absolute border border-[#333333] h-[350px] w-[350px] rounded-full mt-52 " />
+      <div className="absolute border border-[#F7AB0A] opacity-20 h-[500px] w-[500px] rounded-full mt-52 animate-pulse" />
+      <div className="absolute border border-[#333333] h-[700px] w-[700px] rounded-full mt-52 " />
     </motion.div>
   );
 };
