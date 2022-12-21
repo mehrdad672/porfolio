@@ -8,11 +8,12 @@ import {
   AiOutlinePhone,
 } from "react-icons/ai";
 import { motion } from "framer-motion";
+import Link from "next/link";
 type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="flex sticky top-0  z-20 items-center mx-auto justify-between max-w-5xl py-5 px-10">
+    <header className="flex sticky top-0  z-20 items-center mx-auto justify-between max-w-full py-5 px-10">
       <motion.div
         initial={{
           x: -500,
@@ -27,13 +28,26 @@ const Header = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className="flex items-center space-x-5"
+        className="flex items-center md:space-x-5 space-x-3"
       >
-        <AiFillLinkedin size={25} color="gray" />
-        <AiFillGithub size={25} color="gray" />
-        <AiOutlineMail size={25} color="gray" />
-        <AiOutlineInstagram size={25} color="gray" />
-        <AiOutlineWhatsApp size={25} color="gray" />
+        <Link
+          target="_blank"
+          href="https://www.linkedin.com/in/mehrdad-roienyan-61a220232/"
+        >
+          <AiFillLinkedin className="hover:scale-110" color='gray' size={25}  />
+        </Link>
+        <Link target="_blank" href="https://github.com/mehrdad672">
+          <AiFillGithub className="hover:scale-110" size={25} color="gray" />
+        </Link>
+        <Link href="#contact">
+          <AiOutlineMail className="hover:scale-110" size={25} color="gray" />
+        </Link>
+        <Link target="_blank" href="">
+          <AiOutlineInstagram className="hover:scale-110" size={25} color="gray" />
+        </Link>
+        <Link target="_blank" href="">
+          <AiOutlineWhatsApp className="hover:scale-110" size={25} color="gray" />
+        </Link>
       </motion.div>
       <motion.div
         initial={{
@@ -49,12 +63,16 @@ const Header = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className="flex items-center space-x-2 cursor-pointer"
       >
-        <AiOutlinePhone size={25} color="gray" />
-        <p className="text-gray-400 text-sm hidden md:inline-flex">
-          Get in Touch
-        </p>
+        <Link
+          className="flex items-center space-x-2 cursor-pointer"
+          href="#contact"
+        >
+          <AiOutlinePhone className="hover:scale-110" size={25} color="gray" />
+          <p className="text-gray-400 text-sm hidden md:inline-flex">
+            Get in Touch
+          </p>
+        </Link>
       </motion.div>
     </header>
   );

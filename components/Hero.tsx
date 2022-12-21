@@ -18,7 +18,7 @@ const Hero = (props: Props) => {
     delaySpeed: 1500,
   });
   return (
-    <div className="h-screen  flex flex-col space-y-8 items-center justify-center text-center overflow-hidden mt-10">
+    <div className="h-screen max-w-full  flex flex-col space-y-8 items-center justify-center text-center overflow-hidden mt-10">
       <Herobg />
       <Image
         className="relative brightness-75 rounded-full h-36 w-36 object-cover mx-auto"
@@ -27,7 +27,7 @@ const Hero = (props: Props) => {
       />
       <div className="z-20 ">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">frontend developer</h2>
-        <h1 className="z-10 text-3xl lg:text-4xl font-semibold px-10">
+        <h1 className="z-10 text-2xl lg:text-4xl font-semibold px-10">
           <span>{text}</span>
           <Cursor cursorColor="#F7ABBA" />
         </h1>
