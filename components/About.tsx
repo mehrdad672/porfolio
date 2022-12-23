@@ -20,7 +20,7 @@ const About = (props: Props) => {
       <div className="space-y-10 pt-4 px-0 md:px-10">
         <h1 className="text-2xl md:text-4xl font-semibold">Here is a little Background</h1>
         <p className="text-sm w-96 text-left justify-start pl-5">
-            I'm Mehrdad, here's a little bit about me... I've been coding and researching for over 7 years now. I've done many projects in University and some cooperation with small companies and startups in many fields such as Neuroscience and Robotics. Along the journey I found my passion in Web developement. Hence, I started learning the skills and with my background and the skills i've got, my hope in future in this journey is at highest level. With my passion of learning new things, my good undrestandings of proplems and seeking for the best solution along with my commitment to every single project, I see my goals in this area, clearly in very early future. I would be honored to share this journey with YOU...
+            Im Mehrdad, heres a little bit about me... I have been coding and researching for over 7 years now. I ha ve done many projects in University and some cooperation with small companies and startups in many fields such as Neuroscience and Robotics. Along the journey  I found my passion in Web developement. Hence, I started learning the skills and with my background and the skills i hayve got, my hope in future in this journey is at highest level. With my passion of learning new things, my good undrestandings of proplems and seeking for the best solution along with my commitment to every single project, I see my goals in this area, clearly in very early future. I would be honored to share this journey with YOU...
         </p>
       </div>
     </div>
@@ -28,3 +28,4 @@ const About = (props: Props) => {
 };
 
 export default About;
+
