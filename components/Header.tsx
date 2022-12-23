@@ -65,7 +65,7 @@ const Header = (props: Props) => {
         }}
       >
         <Link
-          className="flex items-center space-x-2 cursor-pointer"
+          className="flex  items-center space-x-2 cursor-pointer"
           href="#contact"
         >
           <AiOutlinePhone className="hover:scale-110" size={25} color="gray" />
