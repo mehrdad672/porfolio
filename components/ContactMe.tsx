@@ -31,7 +31,7 @@ const ContactMe = (props: Props) => {
                 <p className="text-xl">Tehran , Iran</p>
             </div>
         </div>
-        <form className="  space-y-2 max-w-full w-full hidden md:flex md:flex-col mx-auto" >
+        <form className="  space-y-2  max-w-full w-full hidden md:flex md:flex-col mx-auto" >
             <div className="flex space-x-2">
                 <input placeholder="Name" className="contactinput" type="text" />
                 <input placeholder="Email" className="contactinput" type="text" />
