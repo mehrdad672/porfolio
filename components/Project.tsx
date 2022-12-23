@@ -24,7 +24,7 @@ const Project = ({image,description,link,title}: Props) => {
         </h4>
         <Popover>
       <PopoverHandler>
-        <button className='bg-[#F7AB0A]/60 hover:bg-[#F7AB0A]/90 px-5 py-2 rounded-2xl text-gray-300 hover:text-gray-100 font-semibold hover:shadow-xl shadow-lg'>Click for Details</button>
+        <button className='bg-[#F7AB0A]/60  hover:bg-[#F7AB0A]/90 px-5 py-2 rounded-2xl text-gray-300 hover:text-gray-100 font-semibold hover:shadow-xl shadow-lg'>Click for Details</button>
       </PopoverHandler>
       <PopoverContent className='w-[80%] lg:w-[50%]' >
         <p className='font-semibold text-center'>{description}</p>
